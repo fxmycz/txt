@@ -13,8 +13,8 @@ check_port() {
     fi
 }
 
-# 检查PORT1
-check_port $PORT1
+# 检查PORT2
+check_port $PORT2
 PORT1_IN_USE=$?  # 保存返回值
 
 # 根据端口状态决定是否执行相应的脚本

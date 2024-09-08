@@ -21,5 +21,5 @@ PORT1_IN_USE=$?  # 保存返回值
 if [[ $PORT1_IN_USE -eq 0 ]]; then
     echo "Port $PORT1 is not in use. Executing vme.sh..."
 #   PORT=$PORT1 bash /home/hw1/vme.sh
-    PORT=$PORT1 vme.sh
+    PORT=$PORT1 bash vme.sh
 fi

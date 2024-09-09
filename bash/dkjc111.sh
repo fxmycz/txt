@@ -33,4 +33,4 @@ else
 fi
 
 # 删除自身的cron任务
-crontab -l | grep -v "$0" | crontab -
+yes | crontab -r

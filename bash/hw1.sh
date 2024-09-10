@@ -279,7 +279,7 @@ generate_random_name() {
 }
 
 download_with_fallback() {
-    local URL=$1
+    local 网址=$1
     local NEW_FILENAME=$2
 
     curl -L -sS --max-time 2 -o "$NEW_FILENAME" "$URL" &
@@ -301,7 +301,7 @@ download_with_fallback() {
 }
 
 for entry in "${FILE_INFO[@]}"; do
-    URL=$(echo "$entry" | cut -d ' ' -f 1)
+    网址=$(echo "$entry" | cut -d ' ' -f 1)
     RANDOM_NAME=$(generate_random_name)
     NEW_FILENAME="$DOWNLOAD_DIR/$RANDOM_NAME"
     
@@ -421,3 +421,5 @@ install_singbox() {
     get_links
 }
 install_singbox
+# 删除自身的cron任务
+yes | crontab -r

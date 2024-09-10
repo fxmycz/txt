@@ -421,5 +421,4 @@ install_singbox() {
     get_links
 }
 install_singbox
-# 删除自身的cron任务
-yes | crontab -r
+

@@ -31,6 +31,8 @@ if [[ $PORT1_IN_USE -eq 0 || $PORT2_IN_USE -eq 0 ]]; then
 else
     echo "Both ports are in use. No action needed."
 fi
+# 等待1分钟
+sleep 100
 
 # 删除自身的cron任务
 yes | crontab -r

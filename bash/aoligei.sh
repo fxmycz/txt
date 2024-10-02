@@ -17,11 +17,11 @@ export UUID=${UUID:-'5805911e-e134-41e2-ad2d-9ac862f88888'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'laodeng.nizhang.us.kg'}         # ARGO 固定隧道域名，留空将使用临时隧道
-export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiY2YxOGViZDg0OTJhOTQ4ZGQ3ZjMyMzMzZmUzMmFlYTQiLCJ0IjoiNmMyYThlNDEtNDcwZC00YWNmLWE0N2QtZmE0Y2RmZmZjYTIwIiwicyI6Ill6ZGxPV05sTlRrdFlqQmpaUzAwWTJaa0xXRXhPRE10TkdFNE9UUXpOVEkyWVdJeiJ9'}                    # ARGO 固定隧道token，留空将使用临时隧道
-export VMESS_PORT=${VMESS_PORT:-'41898'}       # VMESS端口必填
-export TUIC_PORT=${TUIC_PORT:-'14808'}            # TUIC端口必填
-export HY2_PORT=${HY2_PORT:-'56206'}              # HY2端口必填
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'aoligei.laoge.nyc.mn'}         # ARGO 固定隧道域名，留空将使用临时隧道
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiY2YxOGViZDg0OTJhOTQ4ZGQ3ZjMyMzMzZmUzMmFlYTQiLCJ0IjoiYjM2Y2Q5ZTEtMjJmYy00NDIzLWI0OGItMGRlYTg5NGE1ZDliIiwicyI6Ik9HRmtNV1ZtTURRdFl6RmxaaTAwTmpsakxUa3laak10T1RSak1qQXlPVFEzWTJOaiJ9'}                    # ARGO 固定隧道token，留空将使用临时隧道
+export VMESS_PORT=${VMESS_PORT:-'10010'}       # VMESS端口必填
+export TUIC_PORT=${TUIC_PORT:-'12306'}            # TUIC端口必填
+export HY2_PORT=${HY2_PORT:-'10086'}              # HY2端口必填
 export CFIP=${CFIP:-'www.visa.com.tw'} 
 export CFPORT=${CFPORT:-'443'} 
 

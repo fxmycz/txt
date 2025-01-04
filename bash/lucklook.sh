@@ -19,9 +19,9 @@ export NEZHA_PORT=${NEZHA_PORT:-'5555'}
 export NEZHA_KEY=${NEZHA_KEY:-''} 
 export ARGO_DOMAIN=${ARGO_DOMAIN:-'lucklook.otc.us.kg'}   
 export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiMjBiMjViMDlkYzI2M2Q5YjFjZWY1NzlmMDg1MjVmYTQiLCJ0IjoiMmFjOGRlZTAtMDg3Yy00Y2M3LTkzYzctNzNiZTg4ZGViZTNmIiwicyI6IlpqZGlOamd3T1RndFpUWTVNQzAwTVdOaExUaGtaamN0T1RBMFpqYzJNbUV3TnpJMSJ9'}
-export VMESS_PORT=${VMESS_PORT:-'11241'}
-export TUIC_PORT=${TUIC_PORT:-'47448'}
-export HY2_PORT=${HY2_PORT:-'35532'}
+export VMESS_PORT=${VMESS_PORT:-'49882'}
+export TUIC_PORT=${TUIC_PORT:-'4270'}
+export HY2_PORT=${HY2_PORT:-'5244'}
 export CFIP=${CFIP:-'cloudflare.hk'} 
 export CFPORT=${CFPORT:-'443'} 
 

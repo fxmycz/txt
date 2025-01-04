@@ -13,12 +13,12 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'bc97f674-c578-4940-9234-888888888888'}
+export UUID=${UUID:-'bc97f674-c578-4940-9234-88888six8888'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-'lucklook.otc.us.kg'}   
-export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiMjBiMjViMDlkYzI2M2Q5YjFjZWY1NzlmMDg1MjVmYTQiLCJ0IjoiMmFjOGRlZTAtMDg3Yy00Y2M3LTkzYzctNzNiZTg4ZGViZTNmIiwicyI6IlpqZGlOamd3T1RndFpUWTVNQzAwTVdOaExUaGtaamN0T1RBMFpqYzJNbUV3TnpJMSJ9'}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'lucklook.hw1.cloudns.be'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiMjBiMjViMDlkYzI2M2Q5YjFjZWY1NzlmMDg1MjVmYTQiLCJ0IjoiY2QxZjU2YWMtYTMxYy00ZmIzLTg1MDEtYjI3NTA4ZjJhZTAxIiwicyI6Ik4yWmhNbVkyT0dNdFl6TmxNUzAwTlRkaUxXRTJZbVF0TTJKaE1tWXlPRGRsWkdabCJ9'}
 export VMESS_PORT=${VMESS_PORT:-'49882'}
 export TUIC_PORT=${TUIC_PORT:-'4270'}
 export HY2_PORT=${HY2_PORT:-'5244'}
